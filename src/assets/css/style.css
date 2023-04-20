@@ -1,6 +1,7 @@
 
 body {
-    background-color:cornflowerblue;
+    background-color: #141d2f;
+    color: white;
 }
 
 .container {
@@ -15,27 +16,55 @@ header {
     display: flex;
     flex-direction: row;        
     width: 75%;
-    height: 100px;    
+    height: 100px; 
+    justify-content: space-between ;   
+}
+
+.header-dev {
+    display:flex;
+    justify-content: start;
+}
+
+.header-img {
+    display:flex;
+    justify-content: end;
+}
+
+.light {
+    display: none;
+}
+
+.dark {
+    display: block;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     width: 75%;
-    height: 200px;    
+    height: 200px;
+    background-color:#1E2A47;
+    border-radius: 15px; 
+    margin-bottom: 20px;   
 }
 
 main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 75%;    
     height: 600px;
+    background-color:#1E2A47;
+    justify-content: space-between ;
 }
 
 .data-git {
     display: flex;
+    width: 70%;    
     flex-direction: row;
     height: 350px;
+    background-color: #141d2f;
+    justify-content: space-between;
 }
 
 .data-users {
