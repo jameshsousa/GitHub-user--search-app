@@ -36,7 +36,7 @@ header {
     display: block;
 }
 
-.dark {
+.dark {    
     display: none;
 }
 
@@ -73,9 +73,26 @@ main {
 }
 
 .data-users {
-    display: flex;  
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    
+}
+
+.data-users1 {
+    display: flex;
     flex-wrap: wrap;  
     justify-content: space-between;
     height: 100px;
+}
+.data-users2{
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    height: 100px;
+}
+
+main img {
+    width: 4%;
+    height: 30%;
 }
