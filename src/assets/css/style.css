@@ -1,8 +1,4 @@
 
-body {
-    background-color: #141d2f;
-    color: white;
-}
 
 .container {
     display: flex;
@@ -30,14 +26,6 @@ header {
 .header-img {
     display:flex;
     justify-content: end;
-}
-
-.light {
-    display: block;
-}
-
-.dark {    
-    display: none;
 }
 
 nav {
