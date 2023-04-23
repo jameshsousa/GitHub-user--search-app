@@ -1,4 +1,7 @@
-
+body {    
+    background-color: #141d2f;
+    color: white;
+}
 
 .container {
     display: flex;
@@ -24,7 +27,8 @@ header {
 }
 
 .header-img {
-    display:flex;
+    display: flex; 
+    
     justify-content: end;
 }
 
@@ -35,7 +39,18 @@ nav {
     height: 100px;
     background-color:#1E2A47;
     border-radius: 15px; 
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+#light {
+    display: block;
+    padding: 15px;        
+}
+
+#dark {
+    display: none;      
 }
 
 main {
