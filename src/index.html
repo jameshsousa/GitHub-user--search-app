@@ -12,37 +12,34 @@
 
     <div class="container">
 
-      <header>
+      <header class="header">
 
         <div class="header-dev">
             <h1>devfinder</h1>
         </div>
 
-        <div class="header-img">
-          
+        <div class="header-img">          
           <div id ="light">
-            <p style = "display: inline"> Light</p>
+            <p> Light</p>
             <img class="sun" src="assets/icon-sun.svg" alt="sun">
           </div>
-
           <div id ="dark">
-            <p style = "display: inline"> Dark</p>
+            <p> Dark</p>
             <img class="moon" src="assets/icon-moon.svg" alt="moon">
           </div>
         </div>
       </header>
 
-      <nav>
 
-        <form> 
-          <img src="assets/icon-search.svg" alt="search">       
-          <input type="search" placeholder="Search GitHub username...">
-          <input type="submit">
-
-        </form>   
+      <nav id="nav">
+        
+        <span class="nav-img"><img src="assets/icon-search.svg" alt="search"></span>         
+        <span class="nav-search"><input type="search" placeholder="Search GitHub username..."></span>  
+        <span class="nav-submit"><input type="submit" value="Search"></span>  
+           
       </nav>
 
-      <main>
+      <main id="main">
 
         <h3>Joined</h3>
         <div class="data-git">

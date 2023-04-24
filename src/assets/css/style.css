@@ -1,14 +1,21 @@
-body {    
+#test {
+    display: flex;    
     background-color: #141d2f;
     color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 100%;    
+    width: 70%;
+    height: 70%;    
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     
 }
 
@@ -17,49 +24,70 @@ header {
     display: flex;
     flex-direction: row;        
     width: 65%;
-    height: 100px; 
+    height: 15%;
     justify-content: space-between ;   
 }
 
 .header-dev {
     display:flex;
     justify-content: start;
+    gap: 5px;
 }
 
 .header-img {
     display: flex;    
     justify-content: end;
-}
-
-.header-img img {
-    padding-left: 10px;
+    gap: 5px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     width: 65%;
-    height: 100px;
+    height: 15%;
     background-color:#1E2A47;
-    border-radius: 15px; 
-    margin-bottom: 20px;
+    border-radius: 15px;    
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-between;   
 }
 
+nav .nav-img {
+    display: flex;
+    padding-left: 1rem;
+}
+nav .nav-search {
+    display: flex;
+    width: 80%;
+
+
+}
+
+nav .nav-submit {
+    display: flex;
+    padding-right: 1rem;
+    border-radius: 10px;
+}
+
+
 #light {
-    display: block;            
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;            
 }
 
 #dark {
-    display: none;      
+    display: none;
+    align-items: center;
+    justify-content: end; 
+    gap: 10px;     
 }
 
 main {
     display: flex;
     flex-direction: column;    
-    width: 65%;    
-    height: 400px;
+    width: 65%;
+    height: 70%;    
     background-color:#1E2A47;
     justify-content: space-between ;
     align-items: center;
@@ -80,22 +108,22 @@ main {
 .data-users {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 50%;  
     
 }
 
 .data-users1 {
     display: flex;
-    flex-wrap: wrap;  
-    justify-content: space-between;
-    height: 100px;
+    justify-content: start;
+          
 }
+
 .data-users2{
-    display: flex; 
-    flex-wrap: wrap;  
-    justify-content: space-between;
-    height: 100px;
-}
+    display: flex;
+    justify-content: start;      
+    
+}    
+   
 
 main img {
     width: 4%;
