@@ -27,9 +27,12 @@ header {
 }
 
 .header-img {
-    display: flex; 
-    
+    display: flex;    
     justify-content: end;
+}
+
+.header-img img {
+    padding-left: 10px;
 }
 
 nav {
@@ -45,8 +48,7 @@ nav {
 }
 
 #light {
-    display: block;
-    padding: 15px;        
+    display: block;            
 }
 
 #dark {
