@@ -29,7 +29,7 @@
             <p> Dark</p>
             <img class="moon" src="assets/icon-moon.svg" alt="moon">
           </div>
-          
+
         </div>
       </header>
 
@@ -37,26 +37,32 @@
       <nav id="nav">
         
         <span class="nav-img"><img src="assets/icon-search.svg" alt="search"></span>         
-        <span class="nav-search"><form><input type="text" name="search" placeholder="Search GitHub username..."></span></form>  
-        <span class="nav-submit"><input type="submit" value="Search"></span>  
+        <span class="nav-search"><form><input type="text" id="searchInput" name="search" placeholder="Search GitHub username..."></span></form>  
+        <span class="nav-submit"><input onclick="searchUser()" type="submit" value="search"></span>  
            
       </nav>
 
-      <main id="main">
+      <main id="main" >
+      
+        <div id="error" class="hidden">
+          <h2>Usuário não localizado</h2>
+        </div>
 
-        <h3>Joined</h3>
+        <div id="userProfile" class="user-profile">
+
+        <h3>Joined</h3> <span id="joinDate"></span></p>
         <div class="data-git">
           <div>
             <h3>Repos</h3>
-            <p>10</p>
+            <span id="repoCount"></span></p>
           </div>
           <div>
             <h3>Followers</h3>
-            <p>890</p>
+            <span id="followerCount"></span></p>
           </div>
           <div>          
             <h3>Following</h3>
-            <p>8000</p>
+            <span id="followingCount"></span></p>
           </div>
         </div>
 
@@ -64,17 +70,18 @@
 
         <div class="data-users1">
           <img src="assets/icon-location.svg" alt="location">
-          <p>San Francisco</p>        
+          <span id="location"></span></p>        
           <img src="assets/icon-twitter.svg" alt="twitter">
-          <p>Not Availlable</p>
+          <span id="twitter"></span></p>
         </div>
         <div class="data-users2">        
           <img src="assets/icon-website.svg" alt="website">
-          <p>https://github.blog</p>
+          <span id="website"></span>
           <img src="assets/icon-company.svg" alt="company">
-          <p>agithub</p>
+          <span id="company"></span>
         </div>
       </div>
+    </div>
     </main> 
        
 

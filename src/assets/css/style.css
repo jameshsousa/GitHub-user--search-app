@@ -77,11 +77,14 @@ input[type=text]{
 }
 
 input::placeholder {
-    font-size: 1.3srem;    
+    font-size: 1.3rem;    
     color: #FFFFFF;    
     font-family: 'Space Mono', monospace;
 }
 
+.hidden {
+    display: none;
+}
 
 
 input[type=submit] {
