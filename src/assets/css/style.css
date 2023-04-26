@@ -12,8 +12,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 70%;    
+    width: 85%;
+    height: 90%;    
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -24,7 +24,7 @@
 header {
     display: flex;
     flex-direction: row;        
-    width: 65%;
+    width: 75%;
     height: 15%;
     justify-content: space-between ;   
 }
@@ -43,7 +43,7 @@ header {
 
 nav {
     display: flex;    
-    width: 65%;
+    width: 75%;
     height: 15%;
     background-color:#1E2A47;
     border-radius: 15px;    
@@ -112,15 +112,24 @@ input[type=submit] {
 }
 
 main {
-    display: flex;
+    display: grid;
     flex-direction: column;    
-    width: 65%;
-    height: 70%;    
+    width: 75%;
+    height: 80%;    
     background-color:#1E2A47;
     justify-content: space-between ;
     align-items: center;
     border-radius: 15px;
 }
+
+.avatar img{
+    border-radius: 290%;
+    width: 30%;
+    height: 60%;
+    float: left;
+}
+
+
 
 .data-git {
     display: flex;
