@@ -1,4 +1,7 @@
-document.getElementById("light").addEventListener("click", function() {
+
+const light = document.getElementById("light");
+
+light.addEventListener("click", () => {
     document.getElementById('dark').style.display = "flex";
     document.getElementById('light').style.display = "none";
     document.getElementById('test').style.background = "white";
@@ -8,15 +11,15 @@ document.getElementById("light").addEventListener("click", function() {
     document.getElementById('nav').style.border = "0.1rem solid #141d2f";
     document.getElementById('main').style.border = "0.1rem solid #141d2f";
     document.querySelectorAll("input[type='text']")[0].style.background = "white";
-    document.querySelector("input::placeholder").style.color = "#1E2A47";
-    document.getElementsByClass('data-git')[0].style.border = "0.1rem solid #141d2f";
-    document.getElementsByClassName('data-git')[0].style.background = "#1E2A47";     
-    
-    
-      
+    document.querySelector("input::placeholder").style.color = "#FFFFFF";
+    document.getElementsByClass('.data-git')[0].style.border = "0.1rem solid #141d2f";
+    document.getElementsByClassName('.data-git')[0].style.background = "#1E2A47"; 
+       
 });
 
-document.getElementById("dark").addEventListener("click", function() {
+const dark = document.getElementById("dark");
+
+dark.addEventListener("click", () => {
     document.getElementById('light').style.display = "flex";
     document.getElementById('dark').style.display = "none";
     document.getElementById('test').style.background = "#141d2f"; 
@@ -24,9 +27,9 @@ document.getElementById("dark").addEventListener("click", function() {
     document.getElementById('nav').style.background = "#1E2A47";
     document.getElementById('main').style.background = "#1E2A47";
     document.querySelector("input[type='text']").style.background = "#1E2A47";
-    document.querySelector("input::placeholder").style.color = "#FFFFFF";
-    document.getElementByClassName('data-git')[0].style.background = "white";     
-    
+    document.querySelector("input::placeholder").style.color = "#1E2A47";    
+    document.querySelector("body").style.background = "#FFFFFF";
+    document.getElementByClassName('.data-git')[0].style.background = "white";
 });
 
 async function searchUser() {

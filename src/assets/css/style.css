@@ -127,6 +127,7 @@ main {
     width: 30%;
     height: 60%;
     float: left;
+    padding: 5%;
 }
 
 
@@ -135,11 +136,12 @@ main {
     display: flex;
     width: 50%;    
     flex-direction: row;    
-    height: 150px;
+    height: 50%;
     background-color: #141d2f;
     justify-content: space-around;
     align-items: center;
     border-radius: 15px;
+    justify-content: center;
 }
 
 .data-users {
