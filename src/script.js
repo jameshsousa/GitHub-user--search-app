@@ -70,7 +70,7 @@ function showUserProfile(data) {
     document.getElementById("twitter").textContent = data.twitter_username ? `@${data.twitter_username}` : "Não disponível";
     document.getElementById("company").textContent = data.company || "Não disponível";
     document.getElementById("website").textContent = data.blog || "Não disponível";
-    document.getElementById("bio").textContent = data.bio || "About não disponível";
+    document.getElementById("bio").textContent = data.bio || "About não disponível";  
 }
 
 

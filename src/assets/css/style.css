@@ -12,8 +12,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 85%;
-    height: 90%;    
+    width: 65%;
+    height: 75%;    
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -63,8 +63,7 @@ nav .nav-img {
 .nav-submit {
     display: flex;
     padding-right: 1rem;
-    border-radius: 10px;
-    justify-items: end;
+    border-radius: 10px;   
 }
 
 input[type=text]{ 
@@ -82,9 +81,9 @@ input::placeholder {
     font-family: 'Space Mono', monospace;
 }
 
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 
 input[type=submit] {
@@ -117,53 +116,49 @@ main {
     width: 75%;
     height: 80%;    
     background-color:#1E2A47;
-    justify-content: space-between ;
-    align-items: center;
     border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-avatar {
+    display: flex;
+}
+
+.avatar {
+    display: none;
 }
 
 .avatar img{
     border-radius: 290%;
-    width: 30%;
-    height: 60%;
-    float: left;
-    padding: 5%;
+    width: 15%;
+    height: 50%;    
+       
 }
 
+.joined {
+    padding-left: 3%;    
+}
 
 
 .data-git {
     display: flex;
-    width: 50%;    
+    width: 600px;    
     flex-direction: row;    
-    height: 50%;
+    height: 100px;
     background-color: #141d2f;
     justify-content: space-around;
-    align-items: center;
-    border-radius: 15px;
-    justify-content: center;
+    border-radius: 15px;   
 }
 
 .data-users {
-    display: flex;    
-    width: 50%;
-    flex-direction: column;
-    justify-content: space-around;     
-}
-
-.data-users1 {
     display: flex;
-    justify-content: space-around;                
-}
-
-.data-users2{
-    display: flex;
-    justify-content: space-around;      
+    flex-direction: column;    
+    width: 100%;
+    justify-content: space-between;    
     
-}    
+}
+
+  
    
 
-main img {
-    width: 4%;
-    height: 30%;
-}
